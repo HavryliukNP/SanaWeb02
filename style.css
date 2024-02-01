@@ -8,3 +8,24 @@ p{
 #colors{
     color: pink;
 }
+.blue{
+    color: blue;
+}
+a {
+    color: pink;
+}
+ul li a {
+    color: pink;
+}
+ul ul{
+    list-style-type:none;
+}
+.green{
+    color: green;
+}
+ul ul:last-child {
+    list-style-type: square;
+}
+ul ul:last-child li a{
+    text-decoration: none;
+}
