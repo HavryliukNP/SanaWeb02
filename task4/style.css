@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 button[type = "submit"]{
     padding: 10px;
     border: none;
@@ -5,15 +11,19 @@ button[type = "submit"]{
     cursor: pointer;
     background-color: #ff5c7d;
     color: white;
-    font-family: verdana;
     margin-bottom: 10px;
     font-size: 15px;
+    transition: background-color 0.3s;
+}
+button[type = "submit"]:hover{
+    background-color: #d34d69;
 }
 div.form{
     float: left;
     margin: 20px;
     padding-left: 20px;
     border-radius: 10px;
+    box-shadow: px 5px 15px rgba(0, 0, 0, 0.35);
 }
 form{
     display: flex;
@@ -26,7 +36,6 @@ form input[type="password"]{
     padding: 10px;
     border-radius: 5px;
     border: 2px solid rgba(119, 136, 153, 0.2);
-    font-family: verdana;
     width: 85%;
     font-size: 12px;
     font-style: italic;
@@ -57,7 +66,6 @@ label{
     display: flex;
     background-color: white;
     width: 480px;
-    font-family: verdana;
     flex-direction: row-reverse;
     justify-content: space-between;
     overflow: hidden;
